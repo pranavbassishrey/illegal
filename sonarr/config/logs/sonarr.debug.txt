@@ -1071,3 +1071,1580 @@
 2026-07-07 13:44:31.9|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.
 2026-07-07 13:48:01.7|Debug|ImportListSyncService|No import lists with automatic add enabled
 2026-07-07 13:53:01.9|Debug|ImportListSyncService|No import lists with automatic add enabled
+2026-07-07 13:58:02.1|Debug|ImportListSyncService|No import lists with automatic add enabled
+2026-07-07 13:58:02.1|Info|RssSyncService|Starting RSS Sync
+2026-07-07 13:58:02.2|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:02.2|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.
+2026-07-07 13:58:02.2|Debug|FetchAndParseRssService|Available indexers 3
+2026-07-07 13:58:02.4|Debug|Torznab|Downloading Feed http://prowlarr:9696/2/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100
+2026-07-07 13:58:02.5|Debug|Torznab|Downloading Feed http://prowlarr:9696/1/api?t=tvsearch&cat=5000,5050,5040,5045&extended=1&apikey=(removed)&offset=0&limit=100
+2026-07-07 13:58:02.5|Debug|Torznab|Downloading Feed http://prowlarr:9696/5/api?t=tvsearch&cat=5000,5030,5040&extended=1&apikey=(removed)&offset=0&limit=100
+2026-07-07 13:58:03.4|Warn|Torznab|Indexer The Pirate Bay (Prowlarr) rss sync didn't cover the period between 07/07/2026 03:35:01 and 07/07/2026 06:35:02 UTC. Search may be required.
+2026-07-07 13:58:08.4|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:08.4|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.
+2026-07-07 13:58:08.5|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:08.5|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.
+2026-07-07 13:58:10.3|Debug|FetchAndParseRssService|Found 148 reports
+2026-07-07 13:58:10.3|Info|DownloadDecisionMaker|Processing 148 releases
+2026-07-07 13:58:10.3|Debug|DownloadDecisionMaker|Processing release '[MingY] 畫完這個就去死 / Kore Kaite Shine [01][1080p][繁日內嵌]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:10.4|Debug|Parser|Parsing string '[MingY] 畫完這個就去死 / Kore Kaite Shine [01][1080p][繁日內嵌]'
+2026-07-07 13:58:10.5|Debug|Parser|Substituted with [MingY] Kore Kaite Shine  - 01 [1080p][繁日內嵌]
+2026-07-07 13:58:11.0|Debug|Parser|Episode Parsed. Kore Kaite Shine - 001 
+2026-07-07 13:58:11.0|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.0|Debug|QualityParser|Trying to parse quality for '[MingY] 畫完這個就去死 / Kore Kaite Shine [01][1080p][繁日內嵌]'
+2026-07-07 13:58:11.1|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.1|Debug|Parser|Release Group parsed: MingY
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[MingY] Kore Kaite Shine  - 01 [1080p][繁日內嵌]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Kore Kaite Shine
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[MingY] Kore Kaite Shine  - 01 [1080p][繁日內嵌]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[MingY] 畫完這個就去死 / Kore Kaite Shine [01][1080p][繁日內嵌]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Kore Kaite Shine matches an alias for series with TVDB ID: 461714
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[MingY] 画完这个就去死 / Kore Kaite Shine [01][1080P][简日内嵌]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[MingY] 画完这个就去死 / Kore Kaite Shine [01][1080P][简日内嵌]'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [MingY] Kore Kaite Shine  - 01 [1080P][简日内嵌]
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Kore Kaite Shine - 001 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[MingY] 画完这个就去死 / Kore Kaite Shine [01][1080P][简日内嵌]'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: MingY
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[MingY] Kore Kaite Shine  - 01 [1080P][简日内嵌]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Kore Kaite Shine
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[MingY] Kore Kaite Shine  - 01 [1080P][简日内嵌]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[MingY] 画完这个就去死 / Kore Kaite Shine [01][1080P][简日内嵌]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Kore Kaite Shine matches an alias for series with TVDB ID: 461714
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[VCB-Studio] 乡下大叔成为剑圣 / Katainaka no Ossan, Kensei ni Naru / 片田舎のおっさん、剣聖になる 10-bit 1080p HEVC BDRip [S1 Fin]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[VCB-Studio] 乡下大叔成为剑圣 / Katainaka no Ossan, Kensei ni Naru / 片田舎のおっさん、剣聖になる 10-bit 1080p HEVC BDRip [S1 Fin]'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [VCB-Studio] 乡下大叔成为剑圣 - 10 -bit 1080p HEVC BDRip [S1 Fin]
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. 乡下大叔成为剑圣 - 010 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[VCB-Studio] 乡下大叔成为剑圣 / Katainaka no Ossan, Kensei ni Naru / 片田舎のおっさん、剣聖になる 10-bit 1080p HEVC BDRip [S1 Fin]'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: Bluray-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: VCB-Studio
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series 乡下大叔成为剑圣
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[VCB-Studio] 乡下大叔成为剑圣 / Katainaka no Ossan, Kensei ni Naru / 片田舎のおっさん、剣聖になる 10-bit 1080p HEVC BDRip [S1 Fin]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[北宇治字幕组] 上伊那牡丹，酒醉身姿似百合 / Kamiina Botan, Yoeru Sugata wa Yuri no Hana [11][WebRip][HEVC_AAC][简繁日内封]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[北宇治字幕组] 上伊那牡丹，酒醉身姿似百合 / Kamiina Botan, Yoeru Sugata wa Yuri no Hana [11][WebRip][HEVC_AAC][简繁日内封]'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [北宇治字幕组] Kamiina Botan, Yoeru Sugata wa Yuri no Hana  - 11 [WebRip][HEVC_AAC][简繁日内封]
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Kamiina Botan, Yoeru Sugata wa Yuri no Hana - 011 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[北宇治字幕组] 上伊那牡丹，酒醉身姿似百合 / Kamiina Botan, Yoeru Sugata wa Yuri no Hana [11][WebRip][HEVC_AAC][简繁日内封]'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: WEBRip-480p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 北宇治字幕组
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[北宇治字幕组] Kamiina Botan, Yoeru Sugata wa Yuri no Hana  - 11 [WebRip][HEVC_AAC][简繁日内封]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kamiina Botan, Yoeru Sugata wa Yuri no Hana. TVDB ID for mapping: 461374
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Kamiina Botan, Yoeru Sugata wa Yuri no Hana
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[北宇治字幕组] Kamiina Botan, Yoeru Sugata wa Yuri no Hana  - 11 [WebRip][HEVC_AAC][简繁日内封]'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: Kamiina Botan, Yoeru Sugata wa Yuri no Hana. TVDB ID for mapping: 461374
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[北宇治字幕组] 上伊那牡丹，酒醉身姿似百合 / Kamiina Botan, Yoeru Sugata wa Yuri no Hana [11][WebRip][HEVC_AAC][简繁日内封]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Kamiina Botan, Yoeru Sugata wa Yuri no Hana matches an alias for series with TVDB ID: 461374
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] World Is Dancing - 01  (ABEMA 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. World Is Dancing - 001 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] World Is Dancing - 01  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: World Is Dancing. TVDB ID for mapping: 473018
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series World Is Dancing
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] World Is Dancing - 01  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: World Is Dancing. TVDB ID for mapping: 473018
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] World Is Dancing matches an alias for series with TVDB ID: 473018
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 02 (Baha 1920x1080 AVC AAC MP4)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 02 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] World Is Dancing - 02  (Baha 1920x1080 AVC AAC MP4)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. World Is Dancing - 002 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 02 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] World Is Dancing - 02  (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: World Is Dancing. TVDB ID for mapping: 473018
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series World Is Dancing
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] World Is Dancing - 02  (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.3|Debug|SceneMappingService|Found scene mapping for: World Is Dancing. TVDB ID for mapping: 473018
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] THE WORLD IS DANCING 世界在起舞 / World Is Dancing - 02 (Baha 1920x1080 AVC AAC MP4)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] World Is Dancing matches an alias for series with TVDB ID: 473018
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[7³ACG] Re：从零开始的异世界生活/Re:Zero kara Hajimeru Isekai Seikatsu S01 | 01-25 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[7³ACG] Re：从零开始的异世界生活/Re:Zero kara Hajimeru Isekai Seikatsu S01 | 01-25 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [7³ACG] 01 - 25  [简繁字幕] BDrip 1080p x265 OPUS 2.0
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. 01 - 025 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[7³ACG] Re：从零开始的异世界生活/Re:Zero kara Hajimeru Isekai Seikatsu S01 | 01-25 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: Bluray-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 7³ACG
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series 01
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[7³ACG] Re：从零开始的异世界生活/Re:Zero kara Hajimeru Isekai Seikatsu S01 | 01-25 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 03 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 03 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] Crowned in a Hundred Days - 03  (CR 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Crowned in a Hundred Days - 003 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 03 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Crowned in a Hundred Days
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 03 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 04 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 04 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] Crowned in a Hundred Days - 04  (CR 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Crowned in a Hundred Days - 004 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 04 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Crowned in a Hundred Days
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 04 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 05 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 05 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] Crowned in a Hundred Days - 05  (B-Global Donghua 1920x1080 HEVC AAC MKV)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Crowned in a Hundred Days - 005 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 05 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Crowned in a Hundred Days
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 百日成王 / Crowned in a Hundred Days - 05 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 非人哉 第三季 / Non-human 3rd Season - 23 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[黒ネズミたち] 非人哉 第三季 / Non-human 3rd Season - 23 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [黒ネズミたち] Non-human 3rd Season - 23  (B-Global Donghua 1920x1080 HEVC AAC MKV)
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Non-human 3rd Season - 023 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 非人哉 第三季 / Non-human 3rd Season - 23 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.3|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.3|Debug|ParsingService|No matching series Non-human 3rd Season
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 非人哉 第三季 / Non-human 3rd Season - 23 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.3|Debug|DownloadDecisionMaker|Processing release '[LoliHouse] 最强废渣皇子暗中活跃于帝位之争 / Degarashi Ouji no Anyaku Teii Arasoi - 01 [WebRip 1080p HEVC-10bit AAC][无中字]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.3|Debug|Parser|Parsing string '[LoliHouse] 最强废渣皇子暗中活跃于帝位之争 / Degarashi Ouji no Anyaku Teii Arasoi - 01 [WebRip 1080p HEVC-10bit AAC][无中字]'
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [LoliHouse][ 最强废渣皇子暗中活跃于帝位之争 / Degarashi Ouji no Anyaku Teii Arasoi][01][WebRip 1080p HEVC-10bit AAC][无中字]
+2026-07-07 13:58:11.3|Debug|Parser|Substituted with [LoliHouse] Degarashi Ouji no Anyaku Teii Arasoi - 01 [WebRip 1080p HEVC-10bit AAC][无中字]
+2026-07-07 13:58:11.3|Debug|Parser|Episode Parsed. Degarashi Ouji no Anyaku Teii Arasoi - 001 
+2026-07-07 13:58:11.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.3|Debug|QualityParser|Trying to parse quality for '[LoliHouse] 最强废渣皇子暗中活跃于帝位之争 / Degarashi Ouji no Anyaku Teii Arasoi - 01 [WebRip 1080p HEVC-10bit AAC][无中字]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: LoliHouse
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Degarashi Ouji no Anyaku Teii Arasoi
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[LoliHouse] 最强废渣皇子暗中活跃于帝位之争 / Degarashi Ouji no Anyaku Teii Arasoi - 01 [WebRip 1080p HEVC-10bit AAC][无中字]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[三明治摆烂组&LoliHouse] 少女怪兽焦糖味 / 少女怪兽焦糖恋心 / Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[三明治摆烂组&LoliHouse] 少女怪兽焦糖味 / 少女怪兽焦糖恋心 / Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [三明治摆烂组&LoliHouse][ 少女怪兽焦糖味 / 少女怪兽焦糖恋心 / Otome Kaijuu Carameliser][01][WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [三明治摆烂组&LoliHouse] Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Otome Kaijuu Carameliser - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[三明治摆烂组&LoliHouse] 少女怪兽焦糖味 / 少女怪兽焦糖恋心 / Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 三明治摆烂组&LoliHouse
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[三明治摆烂组&LoliHouse] Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Otome Kaijuu Carameliser. TVDB ID for mapping: 471878
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Otome Kaijuu Carameliser
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[三明治摆烂组&LoliHouse] Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Otome Kaijuu Carameliser. TVDB ID for mapping: 471878
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[三明治摆烂组&LoliHouse] 少女怪兽焦糖味 / 少女怪兽焦糖恋心 / Otome Kaijuu Carameliser - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Otome Kaijuu Carameliser matches an alias for series with TVDB ID: 471878
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[LoliHouse] 世界最强后卫～迷宫国的新人探索者～ / Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[LoliHouse] 世界最强后卫～迷宫国的新人探索者～ / Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [LoliHouse][ 世界最强后卫～迷宫国的新人探索者～ / Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha][01][WebRip 1080p HEVC-10bit AAC][简繁内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [LoliHouse] Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[LoliHouse] 世界最强后卫～迷宫国的新人探索者～ / Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: LoliHouse
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[LoliHouse] 世界最强后卫～迷宫国的新人探索者～ / Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha - 01 [WebRip 1080p HEVC-10bit AAC][简繁内封字幕]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 牧神记 / Tales of Herding Gods - 90 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 牧神记 / Tales of Herding Gods - 90 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Tales of Herding Gods - 90  (B-Global Donghua 1920x1080 HEVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Tales of Herding Gods - 090 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 牧神记 / Tales of Herding Gods - 90 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Tales of Herding Gods
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 牧神记 / Tales of Herding Gods - 90 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [7³ACG] 01 - 12  [简繁字幕] BDrip 1080p x265 OPUS 2.0
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. 01 - 012 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: Bluray-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 7³ACG
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series 01
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 盗妖行 / Aliens Among Immortals - 41 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 盗妖行 / Aliens Among Immortals - 41 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Aliens Among Immortals - 41  (B-Global Donghua 1920x1080 HEVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Aliens Among Immortals - 041 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 盗妖行 / Aliens Among Immortals - 41 (B-Global Donghua 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Aliens Among Immortals
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 盗妖行 / Aliens Among Immortals - 41 (B-Global Donghua 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[喵萌奶茶屋&LoliHouse] 二十世纪电气目录 / 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[喵萌奶茶屋&LoliHouse] 二十世纪电气目录 / 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [喵萌奶茶屋&LoliHouse][ 二十世纪电气目录 / 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku][01][WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [喵萌奶茶屋&LoliHouse] 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[喵萌奶茶屋&LoliHouse] 二十世纪电气目录 / 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 喵萌奶茶屋&LoliHouse
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[喵萌奶茶屋&LoliHouse] 二十世纪电气目录 / 20 Seiki Denki Mokuroku / Nijusseiki Denki Mokuroku - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '【喵萌奶茶屋】★07月新番★[碧蓝航线 微速前进 二 / Azur Lane - Bisoku Zenshin! S2][01][1080p][简日双语]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '【喵萌奶茶屋】★07月新番★[碧蓝航线 微速前进 二 / Azur Lane - Bisoku Zenshin! S2][01][1080p][简日双语]'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [喵萌奶茶屋] Azur Lane - Bisoku Zenshin! S2 - 01 [1080p][简日双语]
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Azur Lane - Bisoku Zenshin! S2 - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '【喵萌奶茶屋】★07月新番★[碧蓝航线 微速前进 二 / Azur Lane - Bisoku Zenshin! S2][01][1080p][简日双语]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 喵萌奶茶屋
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[喵萌奶茶屋] Azur Lane - Bisoku Zenshin! S2 - 01 [1080p][简日双语]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Azur Lane - Bisoku Zenshin! S2. TVDB ID for mapping: 392491
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Azur Lane - Bisoku Zenshin! S2
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[喵萌奶茶屋] Azur Lane - Bisoku Zenshin! S2 - 01 [1080p][简日双语]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Azur Lane - Bisoku Zenshin! S2. TVDB ID for mapping: 392491
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '【喵萌奶茶屋】★07月新番★[碧蓝航线 微速前进 二 / Azur Lane - Bisoku Zenshin! S2][01][1080p][简日双语]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Azur Lane - Bisoku Zenshin! S2 matches an alias for series with TVDB ID: 392491
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[7³ACG] 辉夜姬想让人告白～天才们的恋爱头脑战～/Kaguya-sama wa Kokurasetai S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[7³ACG] 辉夜姬想让人告白～天才们的恋爱头脑战～/Kaguya-sama wa Kokurasetai S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [7³ACG] 01 - 12  [简繁字幕] BDrip 1080p x265 OPUS 2.0
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. 01 - 012 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[7³ACG] 辉夜姬想让人告白～天才们的恋爱头脑战～/Kaguya-sama wa Kokurasetai S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: Bluray-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 7³ACG
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series 01
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[7³ACG] 辉夜姬想让人告白～天才们的恋爱头脑战～/Kaguya-sama wa Kokurasetai S01 | 01-12 [简繁字幕] BDrip 1080p x265 OPUS 2.0' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p AV1 OPUS 2.0' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p AV1 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [7³ACG] 01 - 12  [简繁字幕] BDrip 1080p AV1 OPUS 2.0
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. 01 - 012 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p AV1 OPUS 2.0'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: Bluray-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 7³ACG
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series 01
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[7³ACG] 无职英雄：技能什么的毫无用处/Mushoku no Eiyuu: Betsu ni Skill Nanka Iranakatta n da ga S01 | 01-12 [简繁字幕] BDrip 1080p AV1 OPUS 2.0' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Liar Game - 14  (ABEMA 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Liar Game - 014 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Liar Game - 14  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Liar Game. TVDB ID for mapping: 467209
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Liar Game
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Liar Game - 14  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Liar Game. TVDB ID for mapping: 467209
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Liar Game matches an alias for series with TVDB ID: 467209
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 從後面來的神威先生（放送版） / Ushiro no Shoumen Kamui-san (On-air version) - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 從後面來的神威先生（放送版） / Ushiro no Shoumen Kamui-san (On-air version) - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Ushiro no Shoumen Kamui-san (On-air version) - 01  (ABEMA 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Ushiro no Shoumen Kamui-san (On-air version) - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 從後面來的神威先生（放送版） / Ushiro no Shoumen Kamui-san (On-air version) - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Ushiro no Shoumen Kamui-san (On-air version) - 01  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Ushiro no Shoumen Kamui-san. TVDB ID for mapping: 473913
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Ushiro no Shoumen Kamui-san (On-air version)
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 從後面來的神威先生（放送版） / Ushiro no Shoumen Kamui-san (On-air version) - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 畫完這個再去死 / Kore Kaite Shine - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 畫完這個再去死 / Kore Kaite Shine - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Kore Kaite Shine - 01  (ABEMA 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Kore Kaite Shine - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 畫完這個再去死 / Kore Kaite Shine - 01 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Kore Kaite Shine - 01  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Kore Kaite Shine
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Kore Kaite Shine - 01  (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Kore Kaite Shine. TVDB ID for mapping: 461714
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 畫完這個再去死 / Kore Kaite Shine - 01 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Kore Kaite Shine matches an alias for series with TVDB ID: 461714
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 2nd Season / Hell Mode 2nd Season - 13 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 2nd Season / Hell Mode 2nd Season - 13 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Hell Mode 2nd Season - 13  (ABEMA 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Hell Mode 2nd Season - 013 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 2nd Season / Hell Mode 2nd Season - 13 (ABEMA 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Hell Mode 2nd Season
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 地獄模式 ～喜歡挑戰特殊成就的玩家在廢設定的異世界成為無雙～ 2nd Season / Hell Mode 2nd Season - 13 (ABEMA 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Liar Game - 14  (CR 1920x1080 AVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Liar Game - 014 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Liar Game - 14  (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Liar Game. TVDB ID for mapping: 467209
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Liar Game
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Liar Game - 14  (CR 1920x1080 AVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Liar Game. TVDB ID for mapping: 467209
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] LIAR GAME - 詐欺遊戲 / Liar Game - 14 (CR 1920x1080 AVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Liar Game matches an alias for series with TVDB ID: 467209
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[ANi]  GRAND BLUE 碧藍之海 3 - 01 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[ANi]  GRAND BLUE 碧藍之海 3 - 01 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. GRAND BLUE 碧藍之海 3 - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[ANi]  GRAND BLUE 碧藍之海 3 - 01 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: ANi
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series GRAND BLUE 碧藍之海 3
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[ANi]  GRAND BLUE 碧藍之海 3 - 01 [1080P][Baha][WEB-DL][AAC AVC][CHT][MP4]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] GRAND BLUE 碧藍之海 3 / Grand Blue Season 3 - 01 (Baha 1920x1080 AVC AAC MP4)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] GRAND BLUE 碧藍之海 3 / Grand Blue Season 3 - 01 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Grand Blue Season - 3  - 01 (Baha 1920x1080 AVC AAC MP4)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Grand Blue Season - 3 - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] GRAND BLUE 碧藍之海 3 / Grand Blue Season 3 - 01 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Grand Blue Season - 3  - 01 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Grand Blue Season - 3. TVDB ID for mapping: 343913
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Grand Blue Season - 3
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Grand Blue Season - 3  - 01 (Baha 1920x1080 AVC AAC MP4)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Grand Blue Season - 3. TVDB ID for mapping: 343913
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] GRAND BLUE 碧藍之海 3 / Grand Blue Season 3 - 01 (Baha 1920x1080 AVC AAC MP4)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Grand Blue Season - 3 matches an alias for series with TVDB ID: 343913
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[黒ネズミたち] 碧蓝之海 第三季 / Grand Blue Season 3 - 01 (B-Global 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] 碧蓝之海 第三季 / Grand Blue Season 3 - 01 (B-Global 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [黒ネズミたち] Grand Blue Season - 3  - 01 (B-Global 1920x1080 HEVC AAC MKV)
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Grand Blue Season - 3 - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[黒ネズミたち] 碧蓝之海 第三季 / Grand Blue Season 3 - 01 (B-Global 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 黒ネズミたち
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Grand Blue Season - 3  - 01 (B-Global 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Grand Blue Season - 3. TVDB ID for mapping: 343913
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Grand Blue Season - 3
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[黒ネズミたち] Grand Blue Season - 3  - 01 (B-Global 1920x1080 HEVC AAC MKV)'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Grand Blue Season - 3. TVDB ID for mapping: 343913
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[黒ネズミたち] 碧蓝之海 第三季 / Grand Blue Season 3 - 01 (B-Global 1920x1080 HEVC AAC MKV)' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Grand Blue Season - 3 matches an alias for series with TVDB ID: 343913
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release '[绿茶字幕组&LoliHouse] 穹庐下的魔女 / Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[绿茶字幕组&LoliHouse] 穹庐下的魔女 / Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [绿茶字幕组&LoliHouse][ 穹庐下的魔女 / Tenmaku no Jaadugar][01][WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Substituted with [绿茶字幕组&LoliHouse] Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]
+2026-07-07 13:58:11.4|Debug|Parser|Episode Parsed. Tenmaku no Jaadugar - 001 
+2026-07-07 13:58:11.4|Debug|Parser|Languages parsed: Chinese
+2026-07-07 13:58:11.4|Debug|QualityParser|Trying to parse quality for '[绿茶字幕组&LoliHouse] 穹庐下的魔女 / Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2026-07-07 13:58:11.4|Debug|Parser|Release Group parsed: 绿茶字幕组&LoliHouse
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[绿茶字幕组&LoliHouse] Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Tenmaku no Jaadugar. TVDB ID for mapping: 462561
+2026-07-07 13:58:11.4|Debug|ParsingService|No matching series Tenmaku no Jaadugar
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string '[绿茶字幕组&LoliHouse] Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]'
+2026-07-07 13:58:11.4|Debug|SceneMappingService|Found scene mapping for: Tenmaku no Jaadugar. TVDB ID for mapping: 462561
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Release '[绿茶字幕组&LoliHouse] 穹庐下的魔女 / Tenmaku no Jaadugar - 01 [WebRip 1080p HEVC-10bit AAC][简繁日内封字幕]' from 'Bangumi Moe (Prowlarr)' rejected for the following reasons: [Permanent] Tenmaku no Jaadugar matches an alias for series with TVDB ID: 462561
+2026-07-07 13:58:11.4|Debug|DownloadDecisionMaker|Processing release 'World War II with Tom Hanks S01E13 1080p x265-ELiTE' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.4|Debug|Parser|Parsing string 'World War II with Tom Hanks S01E13 1080p x265-ELiTE'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. World War II with Tom Hanks - S01E13 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'World War II with Tom Hanks S01E13 1080p x265-ELiTE'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: ELiTE
+2026-07-07 13:58:11.9|Debug|ParsingService|No matching series World War II with Tom Hanks
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Release 'World War II with Tom Hanks S01E13 1080p x265-ELiTE' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Processing release 'Zatima S04E20 1080p HEVC x265-MeGusta' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 1080p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. Zatima - S04E20 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'Zatima S04E20 1080p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: MeGusta
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 1080p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|ParsingService|No matching series Zatima
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 1080p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Release 'Zatima S04E20 1080p HEVC x265-MeGusta' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Zatima matches an alias for series with TVDB ID: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Processing release 'Historys Greatest Machines With Dolph Lundgren S01E06 Worlds Fastest 1080p HULU WEB-DL AAC2 0 H 264-RAWR' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Historys Greatest Machines With Dolph Lundgren S01E06 Worlds Fastest 1080p HULU WEB-DL AAC2 0 H 264-RAWR'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. Historys Greatest Machines With Dolph Lundgren - S01E06 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'Historys Greatest Machines With Dolph Lundgren S01E06 Worlds Fastest 1080p HULU WEB-DL AAC2 0 H 264-RAWR'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: RAWR
+2026-07-07 13:58:11.9|Debug|ParsingService|No matching series Historys Greatest Machines With Dolph Lundgren
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Release 'Historys Greatest Machines With Dolph Lundgren S01E06 Worlds Fastest 1080p HULU WEB-DL AAC2 0 H 264-RAWR' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Processing release 'Zatima S04E20 480p x264-mSD' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 480p x264-mSD'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. Zatima - S04E20 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'Zatima S04E20 480p x264-mSD'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: SDTV v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: mSD
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 480p x264-mSD'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|ParsingService|No matching series Zatima
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 480p x264-mSD'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Release 'Zatima S04E20 480p x264-mSD' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Zatima matches an alias for series with TVDB ID: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Processing release 'Zatima S04E20 720p HEVC x265-MeGusta' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 720p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. Zatima - S04E20 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'Zatima S04E20 720p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: MeGusta
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 720p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|ParsingService|No matching series Zatima
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 720p HEVC x265-MeGusta'
+2026-07-07 13:58:11.9|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Release 'Zatima S04E20 720p HEVC x265-MeGusta' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Zatima matches an alias for series with TVDB ID: 414550
+2026-07-07 13:58:11.9|Debug|DownloadDecisionMaker|Processing release 'Zatima S04E20 XviD-AFG' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:11.9|Debug|Parser|Parsing string 'Zatima S04E20 XviD-AFG'
+2026-07-07 13:58:11.9|Debug|Parser|Episode Parsed. Zatima - S04E20 
+2026-07-07 13:58:11.9|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:11.9|Debug|QualityParser|Trying to parse quality for 'Zatima S04E20 XviD-AFG'
+2026-07-07 13:58:11.9|Debug|Parser|Quality parsed: Unknown v1
+2026-07-07 13:58:11.9|Debug|Parser|Release Group parsed: AFG
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Zatima S04E20 XviD-AFG'
+2026-07-07 13:58:12.0|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:12.0|Debug|ParsingService|No matching series Zatima
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Zatima S04E20 XviD-AFG'
+2026-07-07 13:58:12.0|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Release 'Zatima S04E20 XviD-AFG' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Zatima matches an alias for series with TVDB ID: 414550
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Processing release 'Late Night Law S01E06 1080p WEB h264-EDITH' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Late Night Law S01E06 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|Parser|Episode Parsed. Late Night Law - S01E06 
+2026-07-07 13:58:12.0|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.0|Debug|QualityParser|Trying to parse quality for 'Late Night Law S01E06 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.0|Debug|Parser|Release Group parsed: EDITH
+2026-07-07 13:58:12.0|Debug|ParsingService|No matching series Late Night Law
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Release 'Late Night Law S01E06 1080p WEB h264-EDITH' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Processing release 'Dr Pimple Popper Breaking Out S02E12 Painless Lee and Fearless Townley 1080p HULU WEB-DL AAC2 0 H 264-RAW' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Dr Pimple Popper Breaking Out S02E12 Painless Lee and Fearless Townley 1080p HULU WEB-DL AAC2 0 H 264-RAW'
+2026-07-07 13:58:12.0|Debug|Parser|Episode Parsed. Dr Pimple Popper Breaking Out - S02E12 
+2026-07-07 13:58:12.0|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.0|Debug|QualityParser|Trying to parse quality for 'Dr Pimple Popper Breaking Out S02E12 Painless Lee and Fearless Townley 1080p HULU WEB-DL AAC2 0 H 264-RAW'
+2026-07-07 13:58:12.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.0|Debug|Parser|Release Group parsed: RAW
+2026-07-07 13:58:12.0|Debug|ParsingService|No matching series Dr Pimple Popper Breaking Out
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Release 'Dr Pimple Popper Breaking Out S02E12 Painless Lee and Fearless Townley 1080p HULU WEB-DL AAC2 0 H 264-RAW' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Processing release 'Zatima S04E20 1080p WEB h264-EDITH' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Zatima S04E20 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|Parser|Episode Parsed. Zatima - S04E20 
+2026-07-07 13:58:12.0|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.0|Debug|QualityParser|Trying to parse quality for 'Zatima S04E20 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.0|Debug|Parser|Release Group parsed: EDITH
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Zatima S04E20 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:12.0|Debug|ParsingService|No matching series Zatima
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string 'Zatima S04E20 1080p WEB h264-EDITH'
+2026-07-07 13:58:12.0|Debug|SceneMappingService|Found scene mapping for: Zatima. TVDB ID for mapping: 414550
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Release 'Zatima S04E20 1080p WEB h264-EDITH' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Zatima matches an alias for series with TVDB ID: 414550
+2026-07-07 13:58:12.0|Debug|DownloadDecisionMaker|Processing release '4.Years.Of.Thunder.The.Air.War.In.WWI.4of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.0|Debug|Parser|Parsing string '4.Years.Of.Thunder.The.Air.War.In.WWI.4of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.1|Debug|Parser|Episode Parsed. 4 Years Of Thunder The Air War In WWI - S01E04 
+2026-07-07 13:58:12.1|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.1|Debug|QualityParser|Trying to parse quality for '4.Years.Of.Thunder.The.Air.War.In.WWI.4of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.1|Debug|Parser|Quality parsed: SDTV v1
+2026-07-07 13:58:12.1|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 4 Years Of Thunder The Air War In WWI
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '4.Years.Of.Thunder.The.Air.War.In.WWI.4of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '4.Years.Of.Thunder.The.Air.War.In.WWI.3of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '4.Years.Of.Thunder.The.Air.War.In.WWI.3of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 4 Years Of Thunder The Air War In WWI - S01E03 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '4.Years.Of.Thunder.The.Air.War.In.WWI.3of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: SDTV v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 4 Years Of Thunder The Air War In WWI
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '4.Years.Of.Thunder.The.Air.War.In.WWI.3of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'World.War.II.with.Tom.Hanks.S01E14.1080p.x265-ELiTE' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'World.War.II.with.Tom.Hanks.S01E14.1080p.x265-ELiTE'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. World War II with Tom Hanks - S01E14 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'World.War.II.with.Tom.Hanks.S01E14.1080p.x265-ELiTE'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: ELiTE
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series World War II with Tom Hanks
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'World.War.II.with.Tom.Hanks.S01E14.1080p.x265-ELiTE' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Nae-il-do Chul-geun S01E05 Have a Meeting Still Clocking In 1080p AMZN WEB-DL DD 2 0 H 264-playWEB' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Nae-il-do Chul-geun S01E05 Have a Meeting Still Clocking In 1080p AMZN WEB-DL DD 2 0 H 264-playWEB'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Nae-il-do Chul-geun - S01E05 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Nae-il-do Chul-geun S01E05 Have a Meeting Still Clocking In 1080p AMZN WEB-DL DD 2 0 H 264-playWEB'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: playWEB
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Nae-il-do Chul-geun
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Nae-il-do Chul-geun S01E05 Have a Meeting Still Clocking In 1080p AMZN WEB-DL DD 2 0 H 264-playWEB' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '4.Years.Of.Thunder.The.Air.War.In.WWI.2of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '4.Years.Of.Thunder.The.Air.War.In.WWI.2of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 4 Years Of Thunder The Air War In WWI - S01E02 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '4.Years.Of.Thunder.The.Air.War.In.WWI.2of4.x264.AC3.MVGroup.org.mkv'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: SDTV v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 4 Years Of Thunder The Air War In WWI
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '4.Years.Of.Thunder.The.Air.War.In.WWI.2of4.x264.AC3.MVGroup.org.mkv' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Adam Liaws North American Fan Feasts S01E03 720p WEB H264-JFF' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Adam Liaws North American Fan Feasts S01E03 720p WEB H264-JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Adam Liaws North American Fan Feasts - S01E03 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Adam Liaws North American Fan Feasts S01E03 720p WEB H264-JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: JFF
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Adam Liaws North American Fan Feasts
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Adam Liaws North American Fan Feasts S01E03 720p WEB H264-JFF' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Adam Liaws North American Fan Feasts S01E02 720p WEB H264-JFF' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Adam Liaws North American Fan Feasts S01E02 720p WEB H264-JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Adam Liaws North American Fan Feasts - S01E02 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Adam Liaws North American Fan Feasts S01E02 720p WEB H264-JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: JFF
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Adam Liaws North American Fan Feasts
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Adam Liaws North American Fan Feasts S01E02 720p WEB H264-JFF' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'World.War.II.with.Tom.Hanks.S01E13.1080p.x265-ELiTE' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'World.War.II.with.Tom.Hanks.S01E13.1080p.x265-ELiTE'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. World War II with Tom Hanks - S01E13 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'World.War.II.with.Tom.Hanks.S01E13.1080p.x265-ELiTE'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: ELiTE
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series World War II with Tom Hanks
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'World.War.II.with.Tom.Hanks.S01E13.1080p.x265-ELiTE' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '90 Day The Last Resort Between the Sheets S03E06 1080p WEB h264-CBFM' from 'The Pirate Bay (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day The Last Resort Between the Sheets S03E06 1080p WEB h264-CBFM'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 90 Day The Last Resort Between the Sheets - S03E06 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '90 Day The Last Resort Between the Sheets S03E06 1080p WEB h264-CBFM'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: CBFM
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 90 Day The Last Resort Between the Sheets
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '90 Day The Last Resort Between the Sheets S03E06 1080p WEB h264-CBFM' from 'The Pirate Bay (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Below Deck Mediterranean S11E05 The Deckhand Cometh 720p AMZN WEB DL DDP2 0 H 264 NTb' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Below Deck Mediterranean S11E05 The Deckhand Cometh 720p AMZN WEB DL DDP2 0 H 264 NTb'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Below Deck Mediterranean - S11E05 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Below Deck Mediterranean S11E05 The Deckhand Cometh 720p AMZN WEB DL DDP2 0 H 264 NTb'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Below Deck Mediterranean
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Below Deck Mediterranean S11E05 The Deckhand Cometh 720p AMZN WEB DL DDP2 0 H 264 NTb' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'The Young and the Restless S53E188 1080p WEB h264 DiRT' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'The Young and the Restless S53E188 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. The Young and the Restless - S53E188 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'The Young and the Restless S53E188 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series The Young and the Restless
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'The Young and the Restless S53E188 1080p WEB h264 DiRT' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours in A and E - S36E04 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours in A and E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours in A and E S36E04 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours in A and E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours in A and E - S36E03 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours in A and E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours in A and E S36E03 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours in A and E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E05 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E05 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E05 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E05 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E05 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E05 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E05 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E07 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E07 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E07 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E07 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E07 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E07 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E07 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E08 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E08 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E08 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E08 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E08 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E08 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E08 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E06 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E06 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E06 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E06 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E06 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E06 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E06 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E04 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E04 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E04 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E04 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E04 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E04 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E04 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In A And E S36E03 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E03 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In A And E - S36E03 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In A And E S36E03 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E03 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In A And E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In A And E S36E03 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In A And E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In A And E S36E03 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In A And E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours in A and E - S36E02 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours in A and E
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours in A and E. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours in A and E S36E02 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours in A and E matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '24 Hours In AandE S36E02 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In AandE S36E02 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 24 Hours In AandE - S36E02 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '24 Hours In AandE S36E02 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In AandE S36E02 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In AandE. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 24 Hours In AandE
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '24 Hours In AandE S36E02 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 24 Hours In AandE. TVDB ID for mapping: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '24 Hours In AandE S36E02 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 24 Hours In AandE matches an alias for series with TVDB ID: 248699
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'The Young And The Restless S53E188 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'The Young And The Restless S53E188 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. The Young And The Restless - S53E188 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'The Young And The Restless S53E188 720p WEB H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series The Young And The Restless
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'The Young And The Restless S53E188 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E36 720p HDTV H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Love Island - S13E36 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Love Island S13E36 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Love Island S13E36 720p HDTV H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E36 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Love Island - S13E36 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Love Island S13E36 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Love Island S13E36 1080p HDTV H264 DARKFLiX'
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Love Island S13E36 1080p HDTV H264 DARKFLiX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '60 Minutes S58E40 720p WEB h264 DiRT' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 720p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 60 Minutes - S58E40 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '60 Minutes S58E40 720p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 720p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 60 Minutes. TVDB ID for mapping: 73290
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 60 Minutes
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 720p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 60 Minutes. TVDB ID for mapping: 73290
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '60 Minutes S58E40 720p WEB h264 DiRT' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 60 Minutes matches an alias for series with TVDB ID: 73290
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '60 Minutes S58E40 1080p WEB h264 DiRT' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 60 Minutes - S58E40 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '60 Minutes S58E40 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 60 Minutes. TVDB ID for mapping: 73290
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 60 Minutes
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '60 Minutes S58E40 1080p WEB h264 DiRT'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 60 Minutes. TVDB ID for mapping: 73290
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '60 Minutes S58E40 1080p WEB h264 DiRT' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 60 Minutes matches an alias for series with TVDB ID: 73290
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Masterchef Australia S18E45 720p HDTV H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Masterchef Australia S18E45 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Masterchef Australia - S18E45 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Masterchef Australia S18E45 720p HDTV H264 JFF'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Masterchef Australia
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Masterchef Australia S18E45 720p HDTV H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'masterchef australia s18e45 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'masterchef australia s18e45 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. masterchef australia - S18E45 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'masterchef australia s18e45 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series masterchef australia
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'masterchef australia s18e45 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '90 Day Fiance S12E09 1080p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 90 Day Fiance - S12E09 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '90 Day Fiance S12E09 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 90 Day Fiance. TVDB ID for mapping: 277092
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 90 Day Fiance
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 90 Day Fiance. TVDB ID for mapping: 277092
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '90 Day Fiance S12E09 1080p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 90 Day Fiance matches an alias for series with TVDB ID: 277092
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release '90 Day Fiance S12E09 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. 90 Day Fiance - S12E09 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for '90 Day Fiance S12E09 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 90 Day Fiance. TVDB ID for mapping: 277092
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series 90 Day Fiance
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string '90 Day Fiance S12E09 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|SceneMappingService|Found scene mapping for: 90 Day Fiance. TVDB ID for mapping: 277092
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release '90 Day Fiance S12E09 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] 90 Day Fiance matches an alias for series with TVDB ID: 277092
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Rick and Morty S09E07 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Rick and Morty S09E07 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Episode Parsed. Rick and Morty - S09E07 
+2026-07-07 13:58:12.2|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.2|Debug|QualityParser|Trying to parse quality for 'Rick and Morty S09E07 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.2|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.2|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.2|Debug|ParsingService|No matching series Rick and Morty
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Release 'Rick and Morty S09E07 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.2|Debug|DownloadDecisionMaker|Processing release 'Rick and Morty S09E07 1080p WEB h264 EDITH' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.2|Debug|Parser|Parsing string 'Rick and Morty S09E07 1080p WEB h264 EDITH'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Rick and Morty - S09E07 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Rick and Morty S09E07 1080p WEB h264 EDITH'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Rick and Morty
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Rick and Morty S09E07 1080p WEB h264 EDITH' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'House of the Dragon S03E03 2160p HMAX WEB DL DDP5 1 Atmos DV HDR H 265 N1H4L' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'House of the Dragon S03E03 2160p HMAX WEB DL DDP5 1 Atmos DV HDR H 265 N1H4L'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. House of the Dragon - S03E03 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'House of the Dragon S03E03 2160p HMAX WEB DL DDP5 1 Atmos DV HDR H 265 N1H4L'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series House of the Dragon
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'House of the Dragon S03E03 2160p HMAX WEB DL DDP5 1 Atmos DV HDR H 265 N1H4L' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'House of the Dragon S03E03 720p HMAX WEB DL DDP5 1 H 264 NTb' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'House of the Dragon S03E03 720p HMAX WEB DL DDP5 1 H 264 NTb'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. House of the Dragon - S03E03 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'House of the Dragon S03E03 720p HMAX WEB DL DDP5 1 H 264 NTb'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series House of the Dragon
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'House of the Dragon S03E03 720p HMAX WEB DL DDP5 1 H 264 NTb' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'House of the Dragon S03E03 1080p WEB h264 ETHEL' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'House of the Dragon S03E03 1080p WEB h264 ETHEL'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. House of the Dragon - S03E03 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'House of the Dragon S03E03 1080p WEB h264 ETHEL'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series House of the Dragon
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'House of the Dragon S03E03 1080p WEB h264 ETHEL' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Mock the Week S22E14 1080p AMZN WEB DL DDP2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Mock the Week S22E14 1080p AMZN WEB DL DDP2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Mock the Week - S22E14 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Mock the Week S22E14 1080p AMZN WEB DL DDP2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Mock the Week
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Mock the Week S22E14 1080p AMZN WEB DL DDP2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Mock the Week S22E14 720p AMZN WEB DL DDP2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Mock the Week S22E14 720p AMZN WEB DL DDP2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Mock the Week - S22E14 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Mock the Week S22E14 720p AMZN WEB DL DDP2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Mock the Week
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Mock the Week S22E14 720p AMZN WEB DL DDP2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Love Island - S13E35 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Love Island S13E35 720p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Love Island - S13E35 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Love Island S13E35 1080p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Diners Drive Ins and Dives S55E07 Triple D Nation World Recipes 1080p DISC WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Diners Drive Ins and Dives S55E07 Triple D Nation World Recipes 1080p DISC WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Diners Drive Ins and Dives - S55E07 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Diners Drive Ins and Dives S55E07 Triple D Nation World Recipes 1080p DISC WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Diners Drive Ins and Dives
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Diners Drive Ins and Dives S55E07 Triple D Nation World Recipes 1080p DISC WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E06 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E06 The War Cabinet 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E08 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E08 The Crown Prince and the President 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E07 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E07 Baby Brokers 720p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E07 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E07 Baby Brokers 1080p HEVC x265 MeGusta' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E06 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E06 The War Cabinet 1080p WEB h264 BAE' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E08 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E08 The Crown Prince and the President 1080p WEB h264 BAE' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Frontline - S44E05 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Frontline
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Frontline. TVDB ID for mapping: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Frontline S44E05 The President vs the Fed 1080p WEB h264 BAE' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Frontline matches an alias for series with TVDB ID: 80646
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Masterchef Australia S18E44 720p HDTV H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Masterchef Australia S18E44 720p HDTV H264 JFF'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Masterchef Australia - S18E44 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Masterchef Australia S18E44 720p HDTV H264 JFF'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Masterchef Australia
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Masterchef Australia S18E44 720p HDTV H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'masterchef australia s18e44 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'masterchef australia s18e44 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. masterchef australia - S18E44 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'masterchef australia s18e44 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series masterchef australia
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'masterchef australia s18e44 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'lego masters au s08e01 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'lego masters au s08e01 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. lego masters au - S08E01 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'lego masters au s08e01 1080p hdtv h264 ferengi'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series lego masters au
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'lego masters au s08e01 1080p hdtv h264 ferengi' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'lego masters au s08e01 720p hdtv x264 orenji' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'lego masters au s08e01 720p hdtv x264 orenji'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. lego masters au - S08E01 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'lego masters au s08e01 720p hdtv x264 orenji'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series lego masters au
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'lego masters au s08e01 720p hdtv x264 orenji' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Interview with the Vampire - S03E05 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Interview with the Vampire. TVDB ID for mapping: 405535
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Interview with the Vampire
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Interview with the Vampire. TVDB ID for mapping: 405535
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Interview with the Vampire S03E05 New York 1080p AMZN WEB DL DDP5 1 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Interview with the Vampire matches an alias for series with TVDB ID: 405535
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Interview with the Vampire - S03E05 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Interview with the Vampire. TVDB ID for mapping: 405535
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Interview with the Vampire
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|SceneMappingService|Found scene mapping for: Interview with the Vampire. TVDB ID for mapping: 405535
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Interview with the Vampire S03E05 New York 720p AMZN WEB DL DDP5 1 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Interview with the Vampire matches an alias for series with TVDB ID: 405535
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'My Adventures with Superman S03E04 720p x264 FENiX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'My Adventures with Superman S03E04 720p x264 FENiX'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. My Adventures with Superman - S03E04 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'My Adventures with Superman S03E04 720p x264 FENiX'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: HDTV-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series My Adventures with Superman
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'My Adventures with Superman S03E04 720p x264 FENiX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Superstore S00E01 Olympics 1080p AMZN WEB DL DDP5 1 H 264 FLUX' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Superstore S00E01 Olympics 1080p AMZN WEB DL DDP5 1 H 264 FLUX'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Superstore - S00E01 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Superstore S00E01 Olympics 1080p AMZN WEB DL DDP5 1 H 264 FLUX'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Superstore
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Superstore S00E01 Olympics 1080p AMZN WEB DL DDP5 1 H 264 FLUX' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'My Adventures with Superman S03E04 1080p WEB h264 EDITH' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'My Adventures with Superman S03E04 1080p WEB h264 EDITH'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. My Adventures with Superman - S03E04 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'My Adventures with Superman S03E04 1080p WEB h264 EDITH'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series My Adventures with Superman
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'My Adventures with Superman S03E04 1080p WEB h264 EDITH' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E189 2026 07 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'The Price Is Right S54E189 2026 07 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. The Price Is Right - S54E189 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E189 2026 07 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E189 2026 07 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E185 2026 06 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'The Price Is Right S54E185 2026 06 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. The Price Is Right - S54E185 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E185 2026 06 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E185 2026 06 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E187 2026 06 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'The Price Is Right S54E187 2026 06 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. The Price Is Right - S54E187 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E187 2026 06 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E187 2026 06 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E188 2026 07 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'The Price Is Right S54E188 2026 07 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. The Price Is Right - S54E188 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E188 2026 07 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E188 2026 07 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Love Island - S13E34 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Release 'Love Island S13E34 1080p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.3|Debug|DownloadDecisionMaker|Processing release 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.3|Debug|Parser|Parsing string 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Episode Parsed. Love Island - S13E34 
+2026-07-07 13:58:12.3|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.3|Debug|QualityParser|Trying to parse quality for 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.3|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.3|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series Love Island
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR'
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'Love Island S13E34 720p ITVX WEB DL AAC2 0 H 264 RAWR' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E184 2026 06 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E184 2026 06 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E184 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E184 2026 06 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E184 2026 06 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E183 2026 06 24 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E183 2026 06 24 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E183 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E183 2026 06 24 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E183 2026 06 24 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E182 2026 06 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E182 2026 06 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E182 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E182 2026 06 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E182 2026 06 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E181 2026 06 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E181 2026 06 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E181 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E181 2026 06 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E181 2026 06 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E180 2026 06 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E180 2026 06 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E180 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E180 2026 06 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E180 2026 06 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E179 2026 06 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E179 2026 06 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E179 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E179 2026 06 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E179 2026 06 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E176 2026 06 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E176 2026 06 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E176 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E176 2026 06 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E176 2026 06 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E177 2026 06 16 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E177 2026 06 16 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E177 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E177 2026 06 16 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E177 2026 06 16 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E174 2026 06 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E174 2026 06 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E174 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E174 2026 06 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E174 2026 06 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E173 2026 06 10 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E173 2026 06 10 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E173 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E173 2026 06 10 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E173 2026 06 10 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E172 2026 06 09 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E172 2026 06 09 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E172 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E172 2026 06 09 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E172 2026 06 09 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E166 2026 06 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E166 2026 06 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E166 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E166 2026 06 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E166 2026 06 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E178 2026 06 17 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E178 2026 06 17 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E178 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E178 2026 06 17 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E178 2026 06 17 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E175 2026 06 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E175 2026 06 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E175 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E175 2026 06 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E175 2026 06 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E165 2026 05 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E165 2026 05 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E165 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E165 2026 05 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E165 2026 05 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E169 2026 06 04 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E169 2026 06 04 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E169 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E169 2026 06 04 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E169 2026 06 04 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E170 2026 06 05 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E170 2026 06 05 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E170 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E170 2026 06 05 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E170 2026 06 05 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E168 2026 06 03 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E168 2026 06 03 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E168 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E168 2026 06 03 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E168 2026 06 03 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E167 2026 06 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E167 2026 06 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E167 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E167 2026 06 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E167 2026 06 02 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E171 2026 06 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E171 2026 06 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E171 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E171 2026 06 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E171 2026 06 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E155 2026 05 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E155 2026 05 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E155 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E155 2026 05 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E155 2026 05 15 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E156 2026 05 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E156 2026 05 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E156 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E156 2026 05 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E156 2026 05 18 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E153 2026 05 13 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E153 2026 05 13 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E153 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E153 2026 05 13 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E153 2026 05 13 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E163 2026 05 27 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E163 2026 05 27 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E163 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E163 2026 05 27 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E163 2026 05 27 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E160 2026 05 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E160 2026 05 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E160 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E160 2026 05 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E160 2026 05 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E164 2026 05 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E164 2026 05 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E164 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E164 2026 05 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E164 2026 05 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E162 2026 05 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E162 2026 05 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E162 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E162 2026 05 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E162 2026 05 26 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E161 2026 05 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E161 2026 05 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E161 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E161 2026 05 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E161 2026 05 25 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E157 2026 05 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E157 2026 05 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E157 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E157 2026 05 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E157 2026 05 19 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E159 2026 05 21 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E159 2026 05 21 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E159 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E159 2026 05 21 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E159 2026 05 21 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E158 2026 05 20 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E158 2026 05 20 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E158 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E158 2026 05 20 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E158 2026 05 20 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E154 2026 05 14 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'The Price Is Right S54E154 2026 05 14 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Episode Parsed. The Price Is Right - S54E154 
+2026-07-07 13:58:12.4|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.4|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E154 2026 05 14 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.4|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.4|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E154 2026 05 14 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.4|Debug|DownloadDecisionMaker|Processing release 'Jeopardy 2026 06 30 720p WEB DL h264 aac' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.4|Debug|Parser|Parsing string 'Jeopardy 2026 06 30 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. Jeopardy - 2026-06-30 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'Jeopardy 2026 06 30 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 06 30 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series Jeopardy
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 06 30 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'Jeopardy 2026 06 30 720p WEB DL h264 aac' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Jeopardy matches an alias for series with TVDB ID: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E152 2026 05 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E152 2026 05 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E152 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E152 2026 05 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E152 2026 05 12 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'Jeopardy 2026 07 02 720p WEB DL h264 aac' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 02 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. Jeopardy - 2026-07-02 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'Jeopardy 2026 07 02 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 02 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series Jeopardy
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 02 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'Jeopardy 2026 07 02 720p WEB DL h264 aac' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Jeopardy matches an alias for series with TVDB ID: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'Jeopardy 2026 07 01 720p WEB DL h264 aac' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 01 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. Jeopardy - 2026-07-01 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'Jeopardy 2026 07 01 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 01 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series Jeopardy
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'Jeopardy 2026 07 01 720p WEB DL h264 aac'
+2026-07-07 13:58:12.8|Debug|SceneMappingService|Found scene mapping for: Jeopardy. TVDB ID for mapping: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'Jeopardy 2026 07 01 720p WEB DL h264 aac' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Jeopardy matches an alias for series with TVDB ID: 77075
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E145 2026 05 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E145 2026 05 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E145 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E145 2026 05 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E145 2026 05 01 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E143 2026 04 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E143 2026 04 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E143 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E143 2026 04 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E143 2026 04 29 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E144 2026 04 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E144 2026 04 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E144 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E144 2026 04 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E144 2026 04 30 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E151 2026 05 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E151 2026 05 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E151 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E151 2026 05 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E151 2026 05 11 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E150 2026 05 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E150 2026 05 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E150 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E150 2026 05 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E150 2026 05 08 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E149 2026 05 07 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E149 2026 05 07 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E149 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E149 2026 05 07 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E149 2026 05 07 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E148 2026 05 06 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E148 2026 05 06 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E148 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E148 2026 05 06 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E148 2026 05 06 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E139 2026 04 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E139 2026 04 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E139 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E139 2026 04 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E139 2026 04 23 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Young And The Restless S53E187 720p WEB H264 JFF' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Young And The Restless S53E187 720p WEB H264 JFF'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Young And The Restless - S53E187 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Young And The Restless S53E187 720p WEB H264 JFF'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-720p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Young And The Restless
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Young And The Restless S53E187 720p WEB H264 JFF' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E142 2026 04 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E142 2026 04 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E142 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E142 2026 04 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E142 2026 04 28 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Processing release 'The Price Is Right S54E138 2026 04 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)'
+2026-07-07 13:58:12.8|Debug|Parser|Parsing string 'The Price Is Right S54E138 2026 04 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Episode Parsed. The Price Is Right - S54E138 
+2026-07-07 13:58:12.8|Debug|Parser|Languages parsed: Unknown
+2026-07-07 13:58:12.8|Debug|QualityParser|Trying to parse quality for 'The Price Is Right S54E138 2026 04 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun'
+2026-07-07 13:58:12.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2026-07-07 13:58:12.8|Debug|Parser|Release Group parsed: 
+2026-07-07 13:58:12.8|Debug|ParsingService|No matching series The Price Is Right
+2026-07-07 13:58:12.8|Debug|DownloadDecisionMaker|Release 'The Price Is Right S54E138 2026 04 22 1080p AMZN WEB DL DDP2 0 H 264 Kitsun' from 'showRSS (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Series
+2026-07-07 13:58:12.8|Info|RssSyncService|RSS Sync Completed. Reports found: 148, Reports grabbed: 0
+2026-07-07 13:58:12.8|Debug|PendingReleaseService|Removing failed releases from pending
+2026-07-07 13:58:15.3|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:15.3|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.
+2026-07-07 13:58:15.3|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:15.3|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si (Prowlarr) till 07/08/2026 11:01:55 due to recent failures.

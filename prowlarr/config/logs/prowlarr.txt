@@ -118,3 +118,6 @@
 2026-07-07 13:44:34.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2026-07-07 13:44:34.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2026-07-07 13:44:34.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [Bangumi Moe] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [showRSS] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5030, 5040]

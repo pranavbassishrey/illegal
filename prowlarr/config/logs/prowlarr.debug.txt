@@ -34,3 +34,24 @@
 2026-07-07 13:44:34.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2026-07-07 13:44:34.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
 2026-07-07 13:44:36.5|Debug|FlareSolverr|Cloudflare Detected, Applying FlareSolverr Proxy FlareSolverr to request https://prowlarr.servarr.com/v1/ping
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer 1337x till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si till 07/08/2026 11:01:53 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Torrent Downloads till 07/07/2026 18:10:17 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer 1337x till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si till 07/08/2026 11:01:53 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Torrent Downloads till 07/07/2026 18:10:17 due to recent failures.
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [Bangumi Moe] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045]
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer 1337x till 07/08/2026 11:03:01 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Nyaa.si till 07/08/2026 11:01:53 due to recent failures.
+2026-07-07 13:58:02.5|Debug|IndexerFactory|Temporarily ignoring indexer Torrent Downloads till 07/07/2026 18:10:17 due to recent failures.
+2026-07-07 13:58:02.5|Info|ReleaseSearchService|Searching indexer(s): [showRSS] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5030, 5040]
+2026-07-07 13:58:02.5|Debug|Cardigann|Adding request for showRSS: https://showrss.info/other/all.rss
+2026-07-07 13:58:02.5|Debug|Cardigann|Adding request for Bangumi Moe: https://bangumi.moe/api/torrent/latest
+2026-07-07 13:58:02.5|Debug|Cardigann|Downloading Feed https://bangumi.moe/api/torrent/latest
+2026-07-07 13:58:02.5|Debug|Cardigann|Downloading Feed https://showrss.info/other/all.rss
+2026-07-07 13:58:02.5|Debug|Cardigann|Adding request for The Pirate Bay: https://apibay.org/precompiled/data_top100_recent.json
+2026-07-07 13:58:02.5|Debug|Cardigann|Downloading Feed https://apibay.org/precompiled/data_top100_recent.json
+2026-07-07 13:58:03.3|Debug|ReleaseSearchService|Total of 18 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040, 5045] from 1 indexer(s)
+2026-07-07 13:58:04.4|Debug|ReleaseSearchService|Total of 30 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070] from 1 indexer(s)
+2026-07-07 13:58:10.2|Debug|ReleaseSearchService|Total of 100 reports were found for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5030, 5040] from 1 indexer(s)

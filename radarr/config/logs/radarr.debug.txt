@@ -8561,3 +8561,4 @@
 2026-07-07 13:44:32.1|Debug|IndexerFactory|Temporarily ignoring indexer 1337x (Prowlarr) till 07/08/2026 11:02:58 due to recent failures.
 2026-07-07 13:48:02.1|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
 2026-07-07 13:53:02.3|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2026-07-07 13:58:02.4|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning

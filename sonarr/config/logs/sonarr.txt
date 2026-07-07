@@ -3301,3 +3301,7 @@ database is locked
 2026-07-07 13:44:29.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2026-07-07 13:44:29.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
 2026-07-07 13:44:30.3|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2026-07-07 13:58:02.1|Info|RssSyncService|Starting RSS Sync
+2026-07-07 13:58:03.4|Warn|Torznab|Indexer The Pirate Bay (Prowlarr) rss sync didn't cover the period between 07/07/2026 03:35:01 and 07/07/2026 06:35:02 UTC. Search may be required.
+2026-07-07 13:58:10.3|Info|DownloadDecisionMaker|Processing 148 releases
+2026-07-07 13:58:12.8|Info|RssSyncService|RSS Sync Completed. Reports found: 148, Reports grabbed: 0
